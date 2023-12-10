@@ -1,0 +1,120 @@
+/* CSS Document */
+
+* {
+	border: solid 1px red;
+}
+
+html {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	display: flex;
+}
+
+.header {
+	
+}
+
+.mission .image-container img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.mission .overlay-text {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #000000;
+	color: seashell;
+	padding: 10px 20px;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+.container {
+	text-align: center;
+}
+
+.locations {
+	text-align: center;
+}
+
+.locations .image-container img {
+	display: block;
+	width: 900px;
+	height: auto;
+	justify-content: center;
+}
+
+.locations  .overlay-text {
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	background-color: #000000;
+	color: seashell;
+
+}
+
+.logo {
+	float: left;
+}
+
+.logo img {
+}
+
+.nav {
+
+}
+
+.nav ul{
+	text-decoration: underline;
+	float: right;
+}
+
+.nav ul li {
+	display: inline;
+	margin: 10px;
+	text-align: center;
+}
+
+.mission {
+	margin-top: 6em;
+	width: 100%;
+	text-align: center;
+	border-top: solid seashell;
+	border-width: 100%;
+}
+
+.cards {
+	
+}
+
+.col img {
+	width: 15em;
+	text-align: center;
+}
+
+.image-container img {
+	width: 100px;
+	text-align: center;
+}
+
+.footer {
+
+}
+
+.footer ul {
+
+}
+
+.footer ul li{
+	width: 100%;
+	justify-content: center;
+}
